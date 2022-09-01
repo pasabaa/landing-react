@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <>
     <div className="row justify-content-center sticky-top bg-blur">
-        <div className="col-lg-8 col-10">
+        <div className="col-lg-8 col-12">
             <nav className="navbar navbar-expand-md navbar-dark p-3">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"><img src={logo} width={160} className='img-fluid' alt="" /></a>
