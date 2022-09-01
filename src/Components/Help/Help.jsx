@@ -26,7 +26,7 @@ export default function Help() {
   return (
     <>
       <div className="row justify-content-center m-lg">
-        <div className="col-8">
+        <div className="col-lg-8 col-10">
           <div className="m-md">
             <h1 className="display-3 fw-bold">
               ¿Cómo puede ayudarme <br />
