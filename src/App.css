@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+:root {
+    --color-dark-primary:#060b06;
+    --color-dark-secondary:#090f09;
+    --color-font:whitesmoke;
+    --color-green-primary:#90ff98;
+    --color-blue-primary:#4685b2;
+}
+
+body {
+    background-color: var(--color-dark-primary) !important;
+    color: whitesmoke !important;
+}
+
+/* -buttons- */
+
+.btn-primary-variant {
+    background-color: var(--color-green-primary) !important;
+    color: var(--color-dark-secondary) !important;
+}
+
+/* -backgrounds- */
+
+.bg-green {
+    background-color: var(--color-green-primary);
+    color: var(--color-font);
+}
+
+.bg-dark-variant {
+    background-color: var(--color-dark-secondary) !important;
+    color: var(--color-font);
+}
+
+.bg-blur {
+    --color-dark-primary:#060b067e;
+    background-color: var(--color-dark-primary) !important;
+    color: var(--color-font) !important;
+    backdrop-filter: blur(24px);
+}
+
+/* -margins- */
+
+.m-lg{
+    margin: 8rem 0;
+}
+
+.m-md {
+    margin: 6rem 0;
+}
