@@ -4,10 +4,8 @@ export default function Footer() {
 return (
 <>
 
-  <div className='row justify-content-center bg-dark-variant pt-4'>
-    <div className='col-lg-8 col-10 p-4'>
-      <div className="container">
-        <footer className='pt-4'>
+
+        <footer className='p-4'>
           <div className="row">
             <div className="col-6 col-md-3 mb-3">
               <h5>COMPAÑÍA</h5>
@@ -34,14 +32,12 @@ return (
             </div>
           </div>
 
-          <div className="d-flex flex-column">
+          <div className="d-flex flex-column justify-content-center text-center">
             <hr />
             <p>&copy; 2022 Fusion Design, Inc. Todos los derechos reservados.</p>
           </div>
         </footer>
-      </div>
-    </div>
-  </div>
+
 </>
 )
 }

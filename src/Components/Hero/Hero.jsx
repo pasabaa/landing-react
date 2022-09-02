@@ -12,7 +12,7 @@ export default function Hero() {
           <h1 className='display-1 fw-bold'>Desarollo web personalizado</h1>
           <h2 className='display-4 fw-normal my-4'>¿No cuentas con un sitio?</h2>
           <p className='text-muted lead my-4'>Contamos con las herramientas y el equipo para desarrollar tu próximo proyecto.</p>
-          <div className="d-flex mt-4">
+          <div className="d-flex mt-4 mb-4">
             <button className='btn btn-lg btn-primary-variant rounded-2 fw-bold'><a target={'_blank'} rel="noreferrer noopener" className='text-decoration-none text-black' href="https://forms.gle/zMb7wqPJUF1k9Y2e9">¡Contrate a nuestro equipo!</a></button>
           </div>
         </div>
