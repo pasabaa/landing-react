@@ -25,16 +25,16 @@ export default function Help() {
 
   return (
     <>
-      <div className="row justify-content-center m-lg">
-        <div className="col-lg-8 col-10">
+      <div className="row justify-content-center align-items-center m-lg bg-green" id="services">
+        <div className="col-lg-8 col-10 m-lg">
           <div className="m-md">
             <h1 className="display-3 fw-bold">
               ¿Cómo puede ayudarme <br />
               Fusion Design?
             </h1>
             <div className="w-50">
-              <p className="text-muted">
-                Descubre en que puede ayudarte el equipo.
+              <p className="text-muted lead">
+                Descubre en que puede ayudarte el equipo de desarrollo.
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ export default function Help() {
                       <div className="text-center">
                         <img src={card.img} alt="" className="img-fluid" />
                       </div>
-                      <h1>{card.title}</h1>
+                      <h2 className="text-white">{card.title}</h2>
                       <p className="text-muted">{card.desc}</p>
                     </div>
                   </div>

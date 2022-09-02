@@ -25,7 +25,7 @@ export default function FusionDesign() {
 
   return (
     <>
-      <div className="row justify-content-center m-lg">
+      <div className="row justify-content-center m-lg" id="about">
         <div className="col-lg-8 col-10">
           <div className="m-md">
             <h1 className="display-3 fw-bold">
@@ -33,7 +33,7 @@ export default function FusionDesign() {
               Fusion Design?
             </h1>
             <div className="w-50">
-              <p className="text-muted">
+              <p className="text-muted lead">
                 Descubre porque deberías tener en cuenta el trabajo que realizamos en equipo.
               </p>
             </div>
@@ -50,7 +50,7 @@ export default function FusionDesign() {
                       <div className="text-center">
                         <img src={card.img} alt="" className="img-fluid" />
                       </div>
-                      <h1>{card.title}</h1>
+                      <h2>{card.title}</h2>
                       <p className="text-muted">{card.desc}</p>
                     </div>
                   </div>

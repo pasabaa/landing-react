@@ -1,5 +1,5 @@
 import './App.css'
-import {Navbar, Hero, Help, Footer, FusionDesign} from './Components'
+import {Navbar, Hero, Help, Footer, FusionDesign, Started} from './Components'
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Hero/>
       <Help/>
       <FusionDesign/>
+      <Started/>
       <Footer/>
     </div>
   )

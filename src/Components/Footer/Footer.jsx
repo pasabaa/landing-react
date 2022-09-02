@@ -4,7 +4,7 @@ export default function Footer() {
 return (
 <>
 
-  <div className='row justify-content-center bg-dark-variant'>
+  <div className='row justify-content-center bg-dark-variant pt-4'>
     <div className='col-lg-8 col-10 p-4'>
       <div className="container">
         <footer className='pt-4'>

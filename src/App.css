@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@700&display=swap');
 
 :root {
     --color-dark-primary:#060b06;
@@ -6,6 +7,12 @@
     --color-font:whitesmoke;
     --color-green-primary:#90ff98;
     --color-blue-primary:#4685b2;
+    --font-title: 'Poppins', sans-serif;
+    --font-text: 'Montserrat', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +30,7 @@ body {
 /* -backgrounds- */
 
 .bg-green {
+    --color-font:rgb(0, 0, 0);
     background-color: var(--color-green-primary);
     color: var(--color-font);
 }
@@ -39,6 +47,12 @@ body {
     backdrop-filter: blur(24px);
 }
 
+.bg-blue {
+    background-color: var(--color-blue-primary) !important;
+    color: var(--color-font);
+}
+
+
 /* -margins- */
 
 .m-lg{
@@ -47,4 +61,46 @@ body {
 
 .m-md {
     margin: 6rem 0;
+}
+
+.p-md {
+    padding: 5rem 0;
+}
+
+/* -texts and fonts- */
+
+.f-title {
+    font-family: var(--font-title);
+}
+
+.f-subtitle {
+    font-family: var(--font-title);
+    font-weight: 600;
+}
+
+.f-text {
+    font-family: var(--font-text);
+}
+
+h1 {
+    font-family: var(--font-title);
+    font-weight: 700;
+}
+
+h2 {
+    font-family: var(--font-text);
+    font-weight: 600 !important;
+}
+
+p {
+    font-family: var(--font-text);
+}
+
+/* -medias- */
+
+
+@media only screen and (max-width: 600px) {
+    .w-50 {
+        min-width: 100%;
+    }    
 }
